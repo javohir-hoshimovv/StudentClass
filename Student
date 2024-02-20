@@ -1,0 +1,45 @@
+import java.util.Locale;
+
+public class Student {
+
+    private String firstName;
+
+    private String lastName;
+
+    private String id;
+
+    public Student(String first_name, String last_name, String idx) {
+        this.firstName = first_name;
+        this.lastName = last_name;
+        this.id = idx;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "First Name: " + firstName + "\n" + "Second Name: " + lastName + "\n" + "ID: " + id;
+    }
+}
