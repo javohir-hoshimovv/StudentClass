@@ -1,0 +1,19 @@
+import javax.swing.*;
+
+public class StudentRunner {
+
+    public void run() {
+
+        Student firstStudent1 = new Student("Javohir", "Hoshimov", "220899");
+
+        Student secondStudent2 = new Student("Azlar", "Khasankhojayev", "220263");
+
+        Student thirdstudent3 = new Student("Jamshid", "Rashidov", "221163");
+
+        System.out.println(firstStudent1);
+        System.out.println(secondStudent2);
+        System.out.println(thirdstudent3);
+
+    }
+
+}
